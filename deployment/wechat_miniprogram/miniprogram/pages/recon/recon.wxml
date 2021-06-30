@@ -1,0 +1,8 @@
+<!--pages/recon/recon.wxml-->
+<view class="total">
+  <van-image width="300" height="300" src="{{glo_img}}" />
+<view class="btn_total">
+<van-button round  type="info" size="normal"  capture="camera" bindtap="monocular">单目深度图片</van-button>
+<van-button round type="warning" size="normal"  capture="camera" bindtap="obj_model"> 单目三维模型 </van-button>
+</view>
+</view>

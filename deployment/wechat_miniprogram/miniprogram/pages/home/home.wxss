@@ -1,0 +1,50 @@
+/* miniprogram/pages/home/home.wxss */
+page {
+  background-color: white;
+  /* background-image:linear-gradient(white, blue); */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chooseBtn {
+  height: 360rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.scroll-view_H{
+  height:310rpx;
+  display: flex;
+  width: 100%;
+  white-space: nowrap;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 100rpx;
+}
+.scroll-view-item_H{
+  width:300rpx;
+  height:300rpx;
+  margin-right:10rpx;
+  display: inline-block;
+  border: solid 1rpx black;
+}
+.scroll-image{
+  width:300rpx;
+  height:300rpx;
+  display: block;
+  /* border-radius: 10px */
+}
+
+.imagegroup {
+  display: flex;
+  align-content: center;
+  justify-items: center;
+}
+

@@ -1,0 +1,18 @@
+<!--miniprogram/pages/home/home.wxml-->
+<van-notify id="van-notify" />
+
+<view class="logo">
+<van-image width="9rem" height="9rem" fit="contain" src="/pages/images/logo.png" style="margin-top:60rpx;" />
+</view>
+
+<view class="chooseBtn">
+  <van-button round icon="add-o" disabled="{{changeStyle}}" type="primary" size="normal" class="upload" bindtap="choose">选择照片</van-button>
+  <van-button round icon="scan" disabled="{{changeStyle}}" type="info" size="normal"  class="upload" capture="camera" bindtap="scan">开始扫描</van-button>
+  <van-button round icon="scan" disabled="{{changeStyle}}" type="info" size="normal"  class="upload" capture="camera" bindtap="scan">三维重建</van-button>
+</view>
+
+<scroll-view class="scroll-view_H" scroll-x="true">
+      <view class="scroll-view-item_H" wx:for="{{fileList}}" wx:key="item">
+        <image mode='aspectFit' src="{{item.url}}" class="scroll-image"/>     
+      </view> 
+</scroll-view>

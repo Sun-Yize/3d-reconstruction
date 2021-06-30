@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/enhance/enhance",
+    "pages/recon/recon",
+    "pages/select/select"
+  ],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E407F",
+    "navigationBarTitleText": "扫描助手",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "van-image": "./pages/@vant/weapp/image/index",
+    "van-icon": "./pages/@vant/weapp/icon/index",
+    "van-button": "./pages/@vant/weapp/button/index",
+    "van-notify": "./pages/@vant/weapp/notify/index",
+    "van-goods-action": "./pages/@vant/weapp/goods-action/index",
+    "van-goods-action-icon": "./pages/@vant/weapp/goods-action-icon/index",
+    "van-goods-action-button": "./pages/@vant/weapp/goods-action-button/index",
+    "van-grid": "./pages/@vant/weapp/grid/index",
+    "van-grid-item": "./pages/@vant/weapp/grid-item/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}
